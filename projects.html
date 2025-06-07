@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <title>Проекты | Карина</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Мои проекты</h1>
+  </header>
+
+  <main class="projects">
+    <div class="project" tabindex="0">
+      <img src="img/project1.png" alt="Homemade Restaurant">
+      <div class="info">
+        <h2>Homemade Restaurant</h2>
+        <p>Сайт ресторана домашней кухни. Красивый дизайн и адаптивная вёрстка.</p>
+      </div>
+    </div>
+    <div class="project" tabindex="0">
+      <img src="img/project2.png" alt="Unique Craft Cafe">
+      <div class="info">
+        <h2>Unique Craft Cafe</h2>
+        <p>Современный сайт кофейни с меню и возможностью заказа.</p>
+      </div>
+    </div>
+    <div class="project" tabindex="0">
+      <img src="img/project3.png" alt="Teaching Center">
+      <div class="info">
+        <h2>Teaching Center</h2>
+        <p>Сайт учебного центра с описанием курсов и формой связи.</p>
+      </div>
+    </div>
+  </main>
+
+  <button id="back">← Назад</button>
+<div id="modal" class="modal hidden">
+  <div class="modal-content">
+    <span class="close" id="modal-close">&times;</span>
+    <img id="modal-img" src="" alt="">
+    <h2 id="modal-title"></h2>
+    <p id="modal-desc"></p>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
