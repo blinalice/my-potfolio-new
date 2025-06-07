@@ -272,7 +272,7 @@ form button:hover {
     opacity: 0;
   }
 }
-/* Заголовки — эстетично */
+
 .about-section h1,
 .about-section h2,
 header h1 {
@@ -281,7 +281,6 @@ header h1 {
   color: #ff3399;
 }
 
-/* Основной текст — читаемый и мягкий */
 .about-section p {
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
@@ -290,7 +289,6 @@ header h1 {
   color: #333;
 }
 
-/* Назад-кнопка — чтобы подходила */
 #back {
   font-family: 'Poppins', sans-serif;
   background-color: #ff66b2;
