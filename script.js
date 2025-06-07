@@ -1,12 +1,11 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // === ГЛАВНАЯ СТРАНИЦА ===
+
   const toProjectsBtn = document.getElementById("to-projects");
   if (toProjectsBtn) {
     toProjectsBtn.addEventListener("click", () => {
       window.location.href = "projects.html";
     });
 
-    // === АНИМАЦИЯ ПРИВЕТСТВИЯ ===
     const intro = document.getElementById("intro-text");
     if (intro) {
       const text = "Привет! Я Карина 💗";
@@ -44,7 +43,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // === СТРАНИЦА ПРОЕКТОВ ===
   const backBtn = document.getElementById("back");
   if (backBtn) {
     backBtn.addEventListener("click", () => {
@@ -98,7 +96,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // === СТРАНИЦА КОНТАКТОВ ===
   const contactForm = document.getElementById("contact-form");
   if (contactForm) {
     contactForm.addEventListener("submit", (e) => {
@@ -108,7 +105,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // === ФОНОВЫЕ СЕРДЕЧКИ ===
   const heartContainer = document.getElementById("heart-container");
 
   if (heartContainer) {
@@ -166,7 +162,7 @@ if (leftBtn && rightBtn && galleryImg && galleryCap) {
     updateGallery();
   });
 }
-// === АНИМИРОВАННЫЙ ТАЙМЕР ДО 390 ДНЕЙ ===
+
 const dayCount = document.getElementById("day-count");
 if (dayCount) {
   let current = 0;
